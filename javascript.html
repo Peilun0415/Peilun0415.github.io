@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <title>Document</title>
+</head>
+<style media="screen">
+body{
+  position: relative;
+}
+  .banner img{
+    width: 100%;
+    height: 100%;
+  }
+  #resume{
+    background-color: #0088A8;
+    height: 700px;
+  }
+  .photo{
+    background-color:#FF8888;
+    height: 300px;
+    margin:0 -15px;
+  }
+  .photo>img{
+    width: 200px;
+    height:200px;
+    display: block;
+    margin:auto;
+
+
+  }
+  .text{
+    background-color: #FFDDAA;
+    height: 420px;
+    padding: 20px;
+    margin:-20px -15px;
+
+  }
+  #main{
+    padding: 20px 40px;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #0088A8;
+    height: 700px;
+  }
+  #main>p{
+    color: #DCDCDC;
+  }
+  #album{
+    background-color: #886600;
+
+  }
+  #album>div>div>img{
+    margin:30px 0px;
+  }
+  .center{
+    text-align: center;
+  }
+</style>
+<script type="text/javascript">
+$(function()){
+  $('body').scrollspy({ target: '#navbar-example' })
+};
+
+</script>
+
+<body data-spy="scroll" data-target="#navbar-example">
+  <div>
+
+    <nav id="navbar-example" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">我の個人網站</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">首頁</a></li>
+            <li><a href="#resume">個人介紹</a></li>
+            <li><a href="#album">相片集</a></li>
+
+          </ul>
+
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="home" class="banner">
+
+      <img class="img-responsive" src="http://www.v3wall.com/wallpaper/1920_1080/1111/1920_1080_20111117090135772230.jpg">
+    </div>
+
+  </div>
+
+  <div id="resume">
+    <div class="row">
+    <div id="left" class="col-md-3 col-sm-4 col-xs-12 visible-xs">
+      <div class="photo">
+        <img src="http://9.share.photo.xuite.net/m8989996/193b783/10239647/467530980_x.jpg" alt="" class="img-circle">
+        <h3 class="center">多尼多尼．喬巴</h2>
+        <h4 class="center">職位－船醫</h4>
+      </div>
+      <div class="text">
+        <span class="glyphicon glyphicon-envelope"> : 千陽號－醫護室收</span><br>
+        <ul>
+          <li>123</li>
+          <li>456</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="main" class="col-md-9 col-sm-8 col-xs-12">
+      <h3><span class="glyphicon glyphicon-user"></span> 簡介</h3>
+      <p>喬巴是草帽海賊團的第5位夥伴，是一隻馴鹿，特徵是藍色的鼻子、以及西爾爾克生前送給他的一頂畫有「X」標記的粉紅色帽子。為目前草帽海賊團當中唯一出生地位在偉大航路的船員。很怕熱，喜歡的島嶼是春天的冬島。十分受到羅賓喜愛，是草帽海賊團年齡最小的成員。人獸型的姿態下，則是夥伴中身材最矮小的成員。喬巴身為野生馴鹿時本來沒有名字，「喬巴」是他的恩人西爾爾克給他命名的，意思是他有一對連樹木都可以輕鬆砍倒的角。
+  以馴鹿的姿態吃下「人人果實」（ヒトヒトの実）的能力者，因為果實能力的緣故，可以理解人類語言、也變成雜食性動物，他仍舊具有動物的敏銳嗅覺，也懂得動物語言，因此可以替動物翻譯。在人獸型姿態常被別人當成會說話的狸貓。個性膽小，一旦自身有危險就會躲起來，但躲藏的方向會相反。對女性的人類沒有性方面的慾望。雖然身為海賊，但也堅持醫生的立場，總是給予每個經手的病人週全的治療，也因此痛恨將人命玩弄於股掌間的行為。有時能夠利用自己豐富的醫療學識，為夥伴開啟勝利之路，隨著冒險的持續，也漸漸的培養出海賊為信念而戰的膽識。
+  他的懸賞金是整個草帽海賊團乃至於整個《ONE PIECE》作品中最低的。</p>
+    </div>
+
+    <div id="right" class="col-md-3 col-sm-4 col-xs-12 hidden-xs">
+      <div class="photo">
+        <img src="http://9.share.photo.xuite.net/m8989996/193b783/10239647/467530980_x.jpg" alt="" class="img-circle">
+        <h3 class="center">多尼多尼．喬巴</h2>
+        <h4 class="center">職位－船醫</h4>
+      </div>
+      <div class="text">
+        <span class="glyphicon glyphicon-envelope"> : 千陽號－醫護室收</span>
+        <ul>
+          <li>123</li>
+          <li>456</li>
+        </ul>
+      </div>
+    </div>
+   </div>
+  </div>
+
+  <div id="album">
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <img class="img-thumbnail" src="http://writm.com/wp-content/uploads/2016/08/Cat-hd-wallpapers.jpg" alt="">
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
